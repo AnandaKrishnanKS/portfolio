@@ -106,3 +106,105 @@ div .navbar-collapse ul li a:hover {
 .header-img:hover {
     transform: scale(1.05);
 }
+
+.resumebtn {
+    margin-top: 2%;
+}
+
+.resumebtn .btn {
+    margin-top: 1rem;
+    position: absolute;
+    line-height: 0;
+    padding: 1rem 2rem;
+    border-radius: 4em;
+    transition: 0.5s;
+    font-family: "Nunito", sans-serif;
+    color: #fff;
+    background: #2506ad;
+    box-shadow: 0px 5px 10px rgba(48, 68, 247, 0.6);
+
+}
+
+.resumebtn .btn span {
+    font-weight: 600;
+    font-size: 1.8rem;
+    letter-spacing: 0.1rem;
+}
+
+.resumebtn .btn i {
+    margin-left: 0.3rem;
+    font-size: 1.2rem;
+    transition: 0.3s;
+}
+
+.resumebtn .btn:hover {
+    color: #fff;
+    background: #1a047e;
+}
+
+.resumebtn .btn:hover i {
+    transform: translateX(5px);
+}
+
+
+/* my code */
+
+
+/* about section */
+.socialicon {
+    /* background-color: rgb(51, 211, 255); */
+    border-radius: 50%;
+    padding-left: .56rem;
+    padding-right: .56rem;
+    color: rgb(0, 0, 0);
+    transition: .3s;
+
+
+}
+
+
+
+.heading2 {
+    padding-top: 2%;
+    text-align: center;
+    font-weight: bolder;
+    color: rgb(27, 51, 122);
+
+}
+
+.fa-solid {
+    color: #f37500;
+}
+
+.image2 {
+    border-radius: 50%;
+    width: 80%;
+    height: 80%;
+    /* object-fit: contain; */
+    display: flex;
+    justify-content: center;
+
+}
+
+.h3sec2 {
+    font-weight: bold;
+    font-family: "Nunito";
+    margin-bottom: 0;
+    padding-left: 1%;
+}
+
+.spansec2 {
+    color: #1a047e;
+    padding-left: 1%;
+}
+
+.aboutDiscription {
+    margin-top: 4%;
+    margin-bottom: 5%;
+    font-family: "Nunito";
+
+}
+
+.spansec2row2 {
+    color: #1a047e;
+}
