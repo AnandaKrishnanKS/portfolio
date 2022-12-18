@@ -1,6 +1,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,300;0,400;0,600;0,700;1,300;1,400&display=swap");
 
+
 /* copied-code */
 
 .nav-item {
@@ -8,6 +9,8 @@
     font-size: large;
 
 }
+
+
 
 div .navbar-collapse ul li a.active,
 div .navbar-collapse ul li a:hover {
@@ -107,13 +110,15 @@ div .navbar-collapse ul li a:hover {
     transform: scale(1.05);
 }
 
+.submitbtn,
 .resumebtn {
     margin-top: 2%;
 }
 
+.submitbtn,
 .resumebtn .btn {
     margin-top: 1rem;
-    position: absolute;
+    /* position: absolute; */
     line-height: 0;
     padding: 1rem 2rem;
     border-radius: 4em;
@@ -125,27 +130,30 @@ div .navbar-collapse ul li a:hover {
 
 }
 
+.submitbtn,
 .resumebtn .btn span {
     font-weight: 600;
     font-size: 1.8rem;
     letter-spacing: 0.1rem;
 }
 
+.submitbtn i,
 .resumebtn .btn i {
     margin-left: 0.3rem;
     font-size: 1.2rem;
     transition: 0.3s;
 }
 
+.submitbtn:hover,
 .resumebtn .btn:hover {
     color: #fff;
     background: #1a047e;
 }
 
+.submitbtn:hover i,
 .resumebtn .btn:hover i {
     transform: translateX(5px);
 }
-
 
 /* my code */
 
@@ -177,13 +185,23 @@ div .navbar-collapse ul li a:hover {
 }
 
 .image2 {
-    border-radius: 50%;
-    width: 80%;
-    height: 80%;
-    /* object-fit: contain; */
+
     display: flex;
     justify-content: center;
 
+
+}
+
+.image2img {
+    width: 75%;
+    border-radius: 50%;
+    transition: .6s;
+    box-shadow: 0px 0px 19px 2px rgba(0, 0, 0, 0.80);
+}
+
+.image2img:hover {
+    scale: 1.03;
+    box-shadow: 0px 0px 15px .5px rgba(0, 0, 0, 0.75);
 }
 
 .h3sec2 {
@@ -207,4 +225,45 @@ div .navbar-collapse ul li a:hover {
 
 .spansec2row2 {
     color: #1a047e;
+}
+
+#skills {
+    background-color: #8ef0ff;
+}
+
+.skillscontainer {
+    background-color: #6de6f8;
+    padding: 5;
+    box-shadow: inset 0px 0px 22px -7px rgba(0, 0, 0, 0.63);
+}
+
+/* .skillscontainer:hover {
+    box-shadow: 0px 0px 22px -7px rgba(0, 0, 0, 0.63);
+} */
+
+.skill-icon-box {
+    padding: 3%;
+    width: 9rem;
+    background: rgba(0, 0, 0, 0.4);
+    text-align: center;
+    transition: .3s;
+    color: black;
+}
+
+.skill-icon-box:hover {
+    box-shadow: 0px 0px 22px -7px rgba(0, 0, 0, 0.9);
+    background: rgba(0, 0, 0, 0.8);
+    scale: 1.1;
+    color: white;
+}
+
+
+/* contact section code */
+.contact-box {
+    box-shadow: 0px 0px 20px -7px rgba(0, 0, 0, 0.75);
+}
+
+.submitbtn {
+    font-size: large;
+    padding: 1rem;
 }
