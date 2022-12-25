@@ -4,6 +4,10 @@
 
 /* copied-code */
 
+body {
+    margin: 0px;
+}
+
 .nav-item {
     font-weight: bold;
     font-size: large;
@@ -23,6 +27,10 @@ div .navbar-collapse ul li a:hover {
 #home {
     height: 49rem;
 
+}
+
+.home {
+    padding-top: 4rem;
 }
 
 .home #particles-js {
@@ -48,13 +56,6 @@ div .navbar-collapse ul li a:hover {
     font-size: 4.5rem;
     font-weight: 800;
     color: #f37500;
-}
-
-.home .content p {
-    font-size: 2.5rem;
-    color: #000;
-    font-weight: 600;
-    padding: 1rem 0;
 }
 
 .home .content p span {
@@ -99,6 +100,9 @@ div .navbar-collapse ul li a:hover {
 }
 
 /* copied-code */
+.main-prt-img {
+    padding-top: 3rem;
+}
 
 .header-img {
     transition: 1s;
@@ -163,6 +167,7 @@ div .navbar-collapse ul li a:hover {
 
 .aboutcontainer {
     padding-top: 6rem;
+    padding-bottom: 3rem;
 }
 
 .socialicon {
@@ -174,6 +179,13 @@ div .navbar-collapse ul li a:hover {
     transition: .3s;
 
 
+}
+
+.socialicon1,
+.socialicon2,
+.socialicon3,
+.socialicon4 {
+    text-align: center;
 }
 
 
@@ -237,7 +249,12 @@ div .navbar-collapse ul li a:hover {
     background-color: #8ef0ff;
 }
 
+.skillshding {
+    margin-top: 3rem;
+}
+
 .skillscontainer {
+
     background-color: #6de6f8;
     box-shadow: inset 0px 0px 22px -7px rgba(0, 0, 0, 0.63);
     margin-bottom: 5rem;
@@ -249,11 +266,12 @@ div .navbar-collapse ul li a:hover {
 
 .skill-icon-box {
     padding: 3%;
-    width: 9rem;
+    width: 100%;
     background: rgba(0, 0, 0, 0.4);
     text-align: center;
     transition: .3s;
     color: black;
+    margin-bottom: 2rem;
 }
 
 .skill-icon-box:hover {
@@ -270,9 +288,15 @@ div .navbar-collapse ul li a:hover {
 }
 
 .submitbtn {
-    font-size: large;
+    font-size: 1.2rem;
     padding: 1rem;
+    border: solid;
+    width: 100%;
+
 }
+
+/* qualification section */
+
 
 .expmainbox {
     box-shadow: inset 0px 0px 22px -7px rgba(0, 0, 0, 0.63);
@@ -287,6 +311,7 @@ div .navbar-collapse ul li a:hover {
 }
 
 .edumainbox {
+    padding-left: 10%;
     box-shadow: inset 0px 0px 22px -7px rgba(0, 0, 0, 0.63);
 }
 
